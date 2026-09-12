@@ -249,6 +249,8 @@ section.alt { background: var(--paper-2); }
 .date-row.highlight { background: linear-gradient(135deg, rgba(91,108,255,.1), rgba(138,91,255,.08)); }
 .date-row.highlight .dt { color: var(--brand); }
 .tba { display:inline-block; font-size: 11px; font-weight:600; color:var(--brand); background: rgba(91,108,255,.12); padding: 2px 8px; border-radius: 6px; }
+.date-row .old-dt { font-weight: 500; color: var(--muted); text-decoration: line-through; margin-right: 7px; }
+.extended { display:inline-block; font-family: var(--font-head); font-size: 10.5px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: #b4530a; background: rgba(240,150,30,.16); padding: 2px 7px; border-radius: 6px; margin-left: 8px; vertical-align: middle; }
 .dates-note { text-align:center; color: var(--muted); font-size: 13px; margin-top: 13px; }
 
 /* ---------- People grids ---------- */
