@@ -324,6 +324,14 @@ a.person:hover h3 { color: var(--brand); }
   .sched .sess td { padding: 9px 16px; }
 }
 
+/* ---------- Accepted papers ---------- */
+.papers { margin: 0 auto; padding: 0; list-style: none; counter-reset: paper; border: 1px solid var(--line); border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow-sm); background: var(--paper); }
+.papers li { counter-increment: paper; position: relative; padding: 13px 20px 13px 54px; border-top: 1px solid var(--line); }
+.papers li:first-child { border-top: 0; }
+.papers li::before { content: counter(paper); position: absolute; left: 20px; top: 13px; font-family: var(--font-head); font-weight: 600; color: var(--brand); }
+.papers b { display: block; color: var(--ink); font-weight: 600; font-size: 14px; line-height: 1.45; }
+.papers span { display: block; color: var(--muted); font-size: 13px; margin-top: 3px; }
+
 /* ---------- Committee ---------- */
 .committee { columns: 3; column-gap: 28px; max-width: 900px; margin: 0 auto; }
 @media (max-width: 760px){ .committee { columns: 2; } }
