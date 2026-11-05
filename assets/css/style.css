@@ -254,7 +254,7 @@ section.alt { background: var(--paper-2); }
 .dates-note { text-align:center; color: var(--muted); font-size: 13px; margin-top: 13px; }
 
 /* ---------- People grids ---------- */
-.people { display: grid; grid-template-columns: repeat(5, 1fr); gap: 22px; max-width: 940px; margin: 0 auto; }
+.people { display: grid; grid-template-columns: repeat(6, 1fr); gap: 22px; max-width: 1100px; margin: 0 auto; }
 @media (max-width: 920px){ .people { grid-template-columns: repeat(3, 1fr); } }
 @media (max-width: 560px){ .people { grid-template-columns: repeat(2, 1fr); } }
 .person { text-align: center; display: block; color: inherit; text-decoration: none; border-radius: var(--radius); padding: 12px 8px; transition: transform .2s ease, background .2s ease, box-shadow .2s ease; }
